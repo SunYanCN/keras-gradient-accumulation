@@ -11,6 +11,10 @@
 
 \[[中文](https://github.com/CyberZHG/keras-gradient-accumulation/blob/master/README.zh-CN.md)|[English](https://github.com/CyberZHG/keras-gradient-accumulation/blob/master/README.md)\]
 
+## Keras Version
+```bash
+keras==2.2.4
+```
 ## Install
 
 ```bash
