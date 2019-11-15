@@ -92,7 +92,7 @@ class GradientAccumulation(keras.optimizers.Optimizer):
         self.optimizer.iterations = fake_iterations
 
         # Use fake learning rate
-        self.optimizer.lr = K.switch(update_cond, self.lr, 0.0)
+        self.optimizer.lr = K.switch(update_cond, self.learning_rate, 0.0)
 
         # Freeze momentum
         momentum = {}
