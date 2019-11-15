@@ -14,7 +14,7 @@
 ## Install
 
 ```bash
-pip install keras-gradient-accumulation
+pip install git+https://github.com/SunYanCN/keras-gradient-accumulation.git
 ```
 
 ## Usage
